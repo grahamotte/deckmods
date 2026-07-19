@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "description": "Cyberpunk 2077 mod install manifest for the Steam Deck c77 setup. The mods array order is the install order.",
+  "mods_dir": "mods",
+  "mods": [
+    {
+      "name": "RED4ext",
+      "current_version": "1.30.0",
+      "nexus_url": "https://www.nexusmods.com/cyberpunk2077/mods/2380",
+      "download_url": "https://www.nexusmods.com/cyberpunk2077/mods/2380?tab=files",
+      "download_path": "RED4ext-2380-1-30-0-1773082858.zip"
+    },
+    {
+      "name": "Cyber Engine Tweaks",
+      "current_version": "1.37.1",
+      "nexus_url": "https://www.nexusmods.com/cyberpunk2077/mods/107",
+      "download_url": "https://www.nexusmods.com/cyberpunk2077/mods/107?tab=files",
+      "download_path": "cet_1.37.1.zip"
+    },
+    {
+      "name": "redscript",
+      "current_version": "0.5.31",
+      "nexus_url": "https://www.nexusmods.com/cyberpunk2077/mods/1511",
+      "download_url": "https://www.nexusmods.com/cyberpunk2077/mods/1511?tab=files",
+      "download_path": "redscript-1511-0-5-31-1757113888.zip"
+    },
+    {
+      "name": "ArchiveXL",
+      "current_version": "1.26.8",
+      "nexus_url": "https://www.nexusmods.com/cyberpunk2077/mods/4198",
+      "download_url": "https://www.nexusmods.com/cyberpunk2077/mods/4198?tab=files",
+      "download_path": "ArchiveXL-4198-1-26-8-1779256460.zip"
+    },
+    {
+      "name": "TweakXL",
+      "current_version": "1.11.3",
+      "nexus_url": "https://www.nexusmods.com/cyberpunk2077/mods/4197",
+      "download_url": "https://www.nexusmods.com/cyberpunk2077/mods/4197?tab=files",
+      "download_path": "TweakXL-4197-1-11-3-1766690034.zip"
+    },
+    {
+      "name": "Codeware",
+      "current_version": "1.20.3",
+      "nexus_url": "https://www.nexusmods.com/cyberpunk2077/mods/7780",
+      "download_url": "https://www.nexusmods.com/cyberpunk2077/mods/7780?tab=files",
+      "download_path": "Codeware-7780-1-20-3-1777845006.zip"
+    },
+    {
+      "name": "Input Loader",
+      "current_version": "0.2.3",
+      "nexus_url": "https://www.nexusmods.com/cyberpunk2077/mods/4575",
+      "download_url": "https://www.nexusmods.com/cyberpunk2077/mods/4575?tab=files",
+      "download_path": "input_loader_v0.2.3.zip"
+    },
+    {
+      "name": "Native Settings UI",
+      "current_version": "1.96",
+      "nexus_url": "https://www.nexusmods.com/cyberpunk2077/mods/3518",
+      "download_url": "https://www.nexusmods.com/cyberpunk2077/mods/3518?tab=files&file_id=63684",
+      "download_path": "Native Settings UI 1.96-3518-1-96-1704576025.zip"
+    },
+    {
+      "name": "FreeFly (Noclip)",
+      "current_version": "2.4",
+      "nexus_url": "https://www.nexusmods.com/cyberpunk2077/mods/780",
+      "download_url": "https://www.nexusmods.com/cyberpunk2077/mods/780?tab=files&file_id=114222",
+      "download_path": "FreeFly 2.4-780-2-4-1752935671.zip"
+    },
+    {
+      "name": "V's Edgerunners Mansion - Apartment DLC",
+      "current_version": "1.6",
+      "nexus_url": "https://www.nexusmods.com/cyberpunk2077/mods/5437",
+      "download_url": "https://www.nexusmods.com/cyberpunk2077/mods/5437?tab=files&file_id=52534",
+      "download_path": "V's Edgerunners Mansion - Apartment DLC 1.6-5437-1-6-1697060118.zip"
+    },
+    {
+      "name": "Let There Be Flight",
+      "current_version": "0.3.17",
+      "nexus_url": "https://www.nexusmods.com/cyberpunk2077/mods/5208",
+      "download_url": "https://www.nexusmods.com/cyberpunk2077/mods/5208?tab=files",
+      "download_path": "let_there_be_flight_0.3.17.zip-5208-0-3-17-1756504713.zip"
+    },
+    {
+      "name": "OpenNC All-in-One (No NCART)",
+      "current_version": "0.9.5",
+      "nexus_url": "https://www.nexusmods.com/cyberpunk2077/mods/14769",
+      "download_url": "https://www.nexusmods.com/cyberpunk2077/mods/14769?tab=files",
+      "download_path": "1 - OpenNC All-in-One (No NCART)-14769-0-9-5-1739971233.zip"
+    },
+    {
+      "name": "Game World Boundary - Removed",
+      "current_version": "0.8",
+      "nexus_url": "https://www.nexusmods.com/cyberpunk2077/mods/20876",
+      "download_url": "https://www.nexusmods.com/cyberpunk2077/mods/20876?tab=files",
+      "download_path": "Game World Boundary - Removed-20876-0-8-1773944151.zip"
+    },
+    {
+      "name": "Night City Interactions - Core",
+      "current_version": "4.1.0",
+      "nexus_url": "https://www.nexusmods.com/cyberpunk2077/mods/5519",
+      "download_url": "https://www.nexusmods.com/cyberpunk2077/mods/5519?tab=files&file_id=139160",
+      "download_path": "Night City Interactions - Core-5519-4-1-0-1773186331.zip"
+    },
+    {
+      "name": "Immersive First Person",
+      "current_version": "1.5.1",
+      "nexus_url": "https://www.nexusmods.com/cyberpunk2077/mods/2675",
+      "download_url": "https://www.nexusmods.com/cyberpunk2077/mods/2675?tab=files",
+      "download_path": "Immersive First Person-2675-1-5-1-1712513796.zip"
+    },
+    {
+      "name": "Judy Romanced Enhanced",
+      "current_version": "2.4.2",
+      "nexus_url": "https://www.nexusmods.com/cyberpunk2077/mods/4508",
+      "download_url": "https://www.nexusmods.com/cyberpunk2077/mods/4508?tab=files",
+      "download_path": "Judy Romanced Enhanced-4508-2-4-2-1761524103.zip"
+    },
+    {
+      "name": "Lizzie's Braindances",
+      "current_version": "3.10",
+      "nexus_url": "https://www.nexusmods.com/cyberpunk2077/mods/11077",
+      "download_url": "https://www.nexusmods.com/cyberpunk2077/mods/11077?tab=files&file_id=149178",
+      "download_path": "Lizzie's Braindances-11077-3-10.zip"
+    },
+    {
+      "name": "Realistic Map",
+      "current_version": "1.0.0",
+      "nexus_url": "https://www.nexusmods.com/cyberpunk2077/mods/17811",
+      "download_url": "https://www.nexusmods.com/cyberpunk2077/mods/17811?tab=files&file_id=111746",
+      "download_path": "Realistic Map 8K-17811-1-0-0-1750282678.zip"
+    },
+    {
+      "name": "Fast Launch (Skip Intro - Startup Videos)",
+      "current_version": "1.1",
+      "nexus_url": "https://www.nexusmods.com/cyberpunk2077/mods/5186",
+      "download_url": "https://www.nexusmods.com/cyberpunk2077/mods/5186?tab=files&file_id=59925",
+      "download_path": "Fast Launch-5186-1-1-1701810565.rar"
+    }
+  ]
+}

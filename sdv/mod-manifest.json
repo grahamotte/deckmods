@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "description": "Stardew Valley mod install manifest for the Steam Deck sdv setup. The mods array order is the install order. Dependencies first, then content mods.",
+  "mods_dir": "mods",
+  "mods": [
+    {
+      "name": "Content Patcher",
+      "current_version": "2.9.1",
+      "nexus_url": "https://www.nexusmods.com/stardewvalley/mods/1915",
+      "download_url": "https://www.nexusmods.com/stardewvalley/mods/1915?tab=files&file_id=160463",
+      "download_path": "Content Patcher 2.9.1-1915-2-9-1-1773542770.zip"
+    },
+    {
+      "name": "Custom Companions",
+      "current_version": "5.1.0",
+      "nexus_url": "https://www.nexusmods.com/stardewvalley/mods/8626",
+      "download_url": "https://www.nexusmods.com/stardewvalley/mods/8626?tab=files&file_id=150992",
+      "download_path": "Custom Companions 5.1.0-8626-5-1-0-1766182318.zip"
+    },
+    {
+      "name": "Farm Type Manager (FTM)",
+      "current_version": "1.26.1",
+      "nexus_url": "https://www.nexusmods.com/stardewvalley/mods/3231",
+      "download_url": "https://www.nexusmods.com/stardewvalley/mods/3231?tab=files&file_id=148044",
+      "download_path": "Farm Type Manager v1.26.1-3231-1-26-1-1763142930.zip"
+    },
+    {
+      "name": "SpaceCore",
+      "current_version": "1.28.4",
+      "nexus_url": "https://www.nexusmods.com/stardewvalley/mods/1348",
+      "download_url": "https://www.nexusmods.com/stardewvalley/mods/1348?tab=files&file_id=145986",
+      "download_path": "SpaceCore 1.28.4-1348-1-28-4-1760884041.zip"
+    },
+    {
+      "name": "Ridgeside Village",
+      "current_version": "2.5.17",
+      "nexus_url": "https://www.nexusmods.com/stardewvalley/mods/7286",
+      "download_url": "https://www.nexusmods.com/stardewvalley/mods/7286?tab=files&file_id=116329",
+      "download_path": "Ridgeside Village 2.5.17-7286-2-5-17-1731446698.zip"
+    }
+  ]
+}

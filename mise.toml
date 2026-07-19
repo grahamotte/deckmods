@@ -1,0 +1,62 @@
+[vars]
+deck = "deck@192.168.1.239"
+deck_c77 = "~/Desktop/c77/"
+deck_sdv = "~/Desktop/sdv/"
+deck_docs = "~/Desktop/docs/"
+
+#
+# Unapply
+#
+
+[tasks."unapply:docs"]
+run = "ssh {{vars.deck}} 'python3 {{vars.deck_c77}}uninstall-mods.py'"
+
+[tasks."unapply:c77"]
+run = "echo noop"
+
+[tasks."unapply:sdv"]
+run = "ssh {{vars.deck}} 'python3 {{vars.deck_sdv}}uninstall-mods.py'"
+
+[tasks.unapply]
+depends = ["unapply:*"]
+
+#
+# Apply
+#
+
+[tasks."apply:docs"]
+run = "rsync -av --delete docs/ {{vars.deck}}:{{vars.deck_docs}}"
+
+[tasks."apply:c77"]
+run = [
+  "rsync -av --delete --exclude-from=.rsync-exclude c77/ {{vars.deck}}:{{vars.deck_c77}}",
+  "ssh {{vars.deck}} 'python3 {{vars.deck_c77}}install-mods.py'",
+]
+
+[tasks."apply:sdv"]
+run = [
+  "rsync -av --delete --exclude-from=.rsync-exclude sdv/ {{vars.deck}}:{{vars.deck_sdv}}",
+  "ssh {{vars.deck}} 'python3 {{vars.deck_sdv}}install-mods.py'",
+]
+
+[tasks.apply]
+depends = ["apply:*"]
+
+#
+# git
+#
+
+[tasks.push]
+description = "Force-push master to Codeberg (origin) and GitHub (origin_backup)"
+run = '''
+set -euo pipefail
+push_to() {
+  local remote="$1"
+  local repo="$2"
+  git remote remove "$remote" 2>/dev/null || true
+  git remote add "$remote" "$repo"
+  git push -f "$remote" master
+}
+push_to origin "ssh://git@codeberg.org/grahamotte/deckmods.git"
+push_to origin_backup "git@github.com:grahamotte/deckmods.git"
+'''

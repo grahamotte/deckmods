@@ -1,0 +1,6 @@
+/backups/
+/logs/
+/manifests/
+/removed-mods/
+/__pycache__/
+*.pyc
